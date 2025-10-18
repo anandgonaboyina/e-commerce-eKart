@@ -1,0 +1,24 @@
+.nav-menu hr {
+    border: none;
+    width: 90%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(123, 21, 255);
+}
+
+.nav-menu li:hover>hr {
+    background-color: transparent;
+}
+
+li {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navbar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2px 0px 5px white;
+}
