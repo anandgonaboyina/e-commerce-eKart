@@ -34,7 +34,7 @@ let [menu, setMenu]=useState("shop");
  <Link to="/login"> <button className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition">Login</button></Link>
   <div className="relative right-2 bg-white/30 backdrop-blur-md p-2 rounded-full border border-white/20 shadow-sm">
    <Link className=" w-8 h-8 " to="/cart"> <img src={cartIcon} alt="Cart"  /></Link>
-    <div className="nav-cart-count w-[25px] h-[25px] absolute top-[-8px] right-[-12px] bg-red-600 rounded-full p-[2px] text-white flex items-center justify-center">0</div>
+    <div className="nav-cart-count w-[25px] h-[25px] absolute top-[-8px] right-[-12px] bg-red-600 rounded-full p-[2px] text-white flex items-center justify-center">1</div>
   </div>
 </div>
 
